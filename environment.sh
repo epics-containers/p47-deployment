@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # a bash script to source in order to set up your command line to in order
-# to work with the p45 IOCs and Services.
+# to work with the p47 IOCs and Services.
 
 # check we are sourced
 if [ "$0" = "$BASH_SOURCE" ]; then
@@ -9,15 +9,15 @@ if [ "$0" = "$BASH_SOURCE" ]; then
     exit 1
 fi
 
-echo "Loading environment for p45 deployment ..."
+echo "Loading environment for p47 deployment ..."
 
 #### SECTION 1. Environment variables ##########################################
 
 export EC_CLI_BACKEND="ARGOCD"
 # the argocd project and root app
-export EC_TARGET=bl45p/p45
+export EC_TARGET=bl47p/p47
 # the git repo for this project
-export EC_SERVICES_REPO=https://github.com/epics-containers/p45-services
+export EC_SERVICES_REPO=https://github.com/epics-containers/p47-services
 # declare your centralised log server Web UI
 export EC_LOG_URL=https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*
 

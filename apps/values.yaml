@@ -8,12 +8,12 @@
 # services should be running on the cluster. It is recommended that this repo
 # be updated by a CI/CD pipeline or configuration tools only.
 
-project: bl45p
+project: bl47p
 destination:
   name: pollux
   namespace: p47-beamline
 source:
-  repoURL: https://github.com/epics-containers/p45-services
+  repoURL: https://github.com/epics-containers/p47-services
   targetRevision: main
 
 # list of services to deploy. Each item is of the form:
@@ -30,7 +30,7 @@ services:
   epics-opis:
 
   # epics iocs #################################################################
-  p45-ea-test-01:
+  p47-ea-test-01:
     enabled: true
     ec_service: true
     targetRevision: 2024.8.1
