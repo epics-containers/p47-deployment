@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.2.10
+_src_path: gh:epics-containers/deployment-template-argocd
+argocd_project: bl45p
+argocd_server: argocd.diamond.ac.uk
+cluster_name: pollux
+cluster_namespace: p47-beamline
+deployment_repo: https://github.com/epics-containers/p45-deployment
+description: p45 IOC Instances and Services
+git_platform: github.com
+github_org: epics-containers
+ioc_group: p45
+logging_url: https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*
+services_release: main
+services_repo: https://github.com/epics-containers/p45-services
