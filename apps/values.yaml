@@ -43,11 +43,11 @@ services:
   bl47p-ea-dcam-01:
     enabled: true
     ec_service: true
-    targetRevision: 2024.8.1
+    targetRevision: feature-branch
   bl47p-ea-dcam-02:
     enabled: true
     ec_service: true
-    targetRevision: 2024.8.1
+    targetRevision: feature-branch
   bl47p-mo-ioc-01:
     enabled: true
     ec_service: true
