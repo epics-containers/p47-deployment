@@ -6,3 +6,5 @@ venv*
 **/Chart.lock
 **/charts
 **/*copy
+words.md
+*.code-workspace
