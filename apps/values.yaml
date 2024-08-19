@@ -35,7 +35,7 @@ services:
   p47-ea-test-01:
     enabled: true
     ec_service: true
-    targetRevision: 2024.8.1
+    targetRevision: 2024.8.2
   bl47p-ea-panda-01:
     enabled: true
     ec_service: true
@@ -55,4 +55,4 @@ services:
   bl47p-ea-test-01:
     enabled: true
     ec_service: true
-    targetRevision: 2024.8.1
+    targetRevision: 2024.8.2
