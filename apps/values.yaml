@@ -27,32 +27,26 @@ source:
 services:
   # shared epics services ######################################################
   epics-pvcs:
-    targetRevision: 2024.8.1
+    targetRevision: 2024.8.3
   epics-opis:
-    targetRevision: 2024.8.1
+    targetRevision: 2024.8.3
 
   # epics iocs #################################################################
   p47-ea-test-01:
-    enabled: true
     ec_service: true
-    targetRevision: 2024.8.2
+    targetRevision: 2024.8.3
   bl47p-ea-panda-01:
-    enabled: true
     ec_service: true
-    targetRevision: 2024.8.1
+    targetRevision: 2024.8.3
   bl47p-ea-dcam-01:
-    enabled: true
     ec_service: true
-    targetRevision: feature-branch
+    targetRevision: 2024.8.3
   bl47p-ea-dcam-02:
-    enabled: true
     ec_service: true
-    targetRevision: feature-branch
+    targetRevision: 2024.8.3
   bl47p-mo-ioc-01:
-    enabled: true
     ec_service: true
-    targetRevision: 2024.8.1
+    targetRevision: 2024.8.3
   bl47p-ea-test-01:
-    enabled: true
     ec_service: true
-    targetRevision: 2024.8.2
+    targetRevision: 2024.8.3
