@@ -1,10 +1,12 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 0.2.10
+_commit: 0.2.10-7-g84ecdd6
 _src_path: gh:epics-containers/deployment-template-argocd
 argocd_project: bl47p
 argocd_server: argocd.diamond.ac.uk
-cluster_name: pollux
-cluster_namespace: p47-beamline
+cluster_name_apps: argus
+cluster_name_services: pollux
+cluster_namespace_apps: p47-beamline
+cluster_namespace_services: p47-beamline
 deployment_repo: https://github.com/epics-containers/p47-deployment
 description: p47 IOC Instances and Services ArgoCD deployments
 git_platform: github.com
