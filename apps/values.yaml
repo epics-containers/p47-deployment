@@ -32,9 +32,9 @@ services:
     targetRevision: 2024.8.3
 
   # epics iocs #################################################################
-  p47-ea-test-01:
-    ec_service: true
-    targetRevision: 2024.8.3
+  # p47-ea-test-01:
+  #   ec_service: true
+  #   targetRevision: 2024.8.3
   bl47p-ea-panda-01:
     ec_service: true
     targetRevision: 2024.8.3
