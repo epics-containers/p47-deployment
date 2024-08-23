@@ -34,5 +34,7 @@ services:
   bl47p-ea-panda-01:
   bl47p-ea-dcam-01:
   bl47p-ea-dcam-02:
+    # tracking a development branch for demo purposes
+    targetRevision: aug-update
   bl47p-mo-ioc-01:
   bl47p-ea-test-01:
