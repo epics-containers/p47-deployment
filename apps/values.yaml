@@ -43,7 +43,7 @@ services:
     targetRevision: 2024.8.5
   bl47p-ea-dcam-02:
     ec_service: true
-    targetRevision: 2024.8.3
+    targetRevision: fix-developer-target
   bl47p-mo-ioc-01:
     ec_service: true
     targetRevision: 2024.8.5
