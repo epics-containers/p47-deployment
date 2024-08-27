@@ -31,6 +31,9 @@ services:
 
   # epics iocs #################################################################
   p47-ea-test-01:
+    ec_service: true
+    enabled: false
+    targetRevision: 2024.8.5
   bl47p-ea-panda-01:
   bl47p-ea-dcam-01:
   bl47p-ea-dcam-02:
