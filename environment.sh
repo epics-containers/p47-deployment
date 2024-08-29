@@ -15,11 +15,11 @@ echo "Loading environment for p47 deployment ..."
 
 export EC_CLI_BACKEND="ARGOCD"
 # the argocd project and root app
-export EC_TARGET=bl47p/p47
+export EC_TARGET=p47-beamline/p47
 # the git repo for this project
 export EC_SERVICES_REPO=https://github.com/epics-containers/p47-services
 # declare your centralised log server Web UI
-export EC_LOG_URL=https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*
+export EC_LOG_URL='https://graylog.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*'
 
 #### SECTION 2. Install ec #####################################################
 
