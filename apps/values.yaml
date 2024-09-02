@@ -41,8 +41,9 @@ services:
   bl47p-ea-dcam-02:
     ec_service: true
     # tracking a development branch for demo purposes
-    targetRevision: aug-update
+    targetRevision: feature-branch2
   bl47p-mo-ioc-01:
     ec_service: true
+    targetRevision: feature-branch2
   bl47p-ea-test-01:
     ec_service: true
