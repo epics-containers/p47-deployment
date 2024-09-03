@@ -14,7 +14,7 @@ destination:
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
-  targetRevision: 2024.9.1
+  targetRevision: main
 
 # list of services to deploy. Each item is of the form:
 # - service: service name as it appears in K8S (statefulset/deployment name)
@@ -36,13 +36,17 @@ services:
     targetRevision: 2024.8.5
   bl47p-ea-panda-01:
     ec_service: true
+    targetRevision: 2024.9.1
   bl47p-ea-dcam-01:
     ec_service: true
+    targetRevision: 2024.9.1
   bl47p-ea-dcam-02:
     ec_service: true
     # tracking a development branch for demo purposes
     targetRevision: feature-branch2
   bl47p-mo-ioc-01:
     ec_service: true
+    targetRevision: 2024.9.1
   bl47p-ea-test-01:
     ec_service: true
+    targetRevision: 2024.9.1
