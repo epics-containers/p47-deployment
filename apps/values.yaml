@@ -27,7 +27,9 @@ source:
 services:
   # shared epics services ######################################################
   epics-pvcs:
+    targetRevision: 2024.9.1
   epics-opis:
+    targetRevision: 2024.9.1
 
   # epics iocs #################################################################
   p47-ea-test-01:
