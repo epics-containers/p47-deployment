@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 0.2.10-7-g84ecdd6
+_commit: 4.0.1
 _src_path: gh:epics-containers/deployment-template-argocd
 argocd_project: bl47p
 argocd_server: argocd.diamond.ac.uk
