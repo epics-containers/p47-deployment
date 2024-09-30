@@ -5,6 +5,6 @@ This repository holds the definition of Argocd deployed ec services. Each sub fo
 ## Deployment
 To deploy the Argocd root App:
 ```
-# Login to pollux cluster
+# Login to argus cluster
 kubectl apply -n p47-beamline -f apps.yaml
 ```
