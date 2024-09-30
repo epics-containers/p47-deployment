@@ -49,3 +49,4 @@ iocs:
     targetRevision: 2024.9.1
   bl47p-ea-test-01:
     targetRevision: 2024.9.1
+    enabled: false
