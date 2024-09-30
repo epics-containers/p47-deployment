@@ -42,7 +42,7 @@ services:
   bl47p-ea-dcam-01:
     ec_service: true
     targetRevision: 2024.9.1
-    enabled: false
+    enabled: true
   bl47p-ea-dcam-02:
     ec_service: true
     # tracking a development branch for demo purposes
