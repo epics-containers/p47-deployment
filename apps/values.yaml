@@ -47,6 +47,7 @@ services:
     ec_service: true
     # tracking a development branch for demo purposes
     targetRevision: feature-branch2
+    enabled: false
   bl47p-mo-ioc-01:
     ec_service: true
     targetRevision: 2024.9.1
