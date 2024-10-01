@@ -28,7 +28,7 @@ services:
   epics-opis:
     targetRevision: 2024.9.1
 
-iocs:
+ec_services:
   # a map of edge services to deploy. Each item is of the form:
   #   service: service name as it appears in K8S (statefulset/deployment name)
   #     targetRevision: optional override for targetRevision above
