@@ -16,23 +16,26 @@ source:
   repoURL: https://github.com/epics-containers/p47-services
   targetRevision: main
 
-# list of services to deploy. Each item is of the form:
-# - service: service name as it appears in K8S (statefulset/deployment name)
-#   targetRevision: optional override for targetRevision above
-#   repoURL: optional override for git repo to source the helm chart from
-#            the path is always services/<service> within that repo
-#   enabled: set to false to stop a service
-#   removed: set to true to remove the service from the cluster
-
 services:
-  # shared epics services ######################################################
+  # a map of services to deploy. Each item is of the form:
+  #   service: service name as it appears in K8S (statefulset/deployment name)
+  #     targetRevision: optional override for targetRevision above
+  #     repoURL: optional override for git repo to source the helm chart from
+  #            the path is always services/<service> within that repo
+  #     removed: set to true to remove the service from the cluster
   epics-pvcs:
     targetRevision: 2024.9.1
   epics-opis:
     targetRevision: 2024.9.1
 
 iocs:
-  # epics iocs #################################################################
+  # a map of edge services to deploy. Each item is of the form:
+  #   service: service name as it appears in K8S (statefulset/deployment name)
+  #     targetRevision: optional override for targetRevision above
+  #     repoURL: optional override for git repo to source the helm chart from
+  #            the path is always services/<service> within that repo
+  #     enabled: set to false to stop a service
+  #     removed: set to true to remove the service from the cluster
   p47-ea-test-01:
     enabled: false
     targetRevision: 2024.8.5
@@ -42,8 +45,7 @@ iocs:
     targetRevision: 2024.9.1
     enabled: false
   bl47p-ea-dcam-02:
-    # tracking a development branch for demo purposes
-    targetRevision: feature-branch2
+    targetRevision: feature-branch2  # tracking a development branch for demo purposes
     enabled: true
   bl47p-mo-ioc-01:
     targetRevision: 2024.9.1
