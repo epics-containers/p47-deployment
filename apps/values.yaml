@@ -46,7 +46,7 @@ ec_services:  # Services which have implemented support for an "enabled" paramet
     enabled: false
   bl47p-ea-dcam-02:
     targetRevision: feature-branch2  # tracking a development branch for demo purposes
-    enabled: true
+    enabled: false
   bl47p-mo-ioc-01:
     targetRevision: 2024.9.1
   bl47p-ea-test-01:
