@@ -17,25 +17,25 @@ source:
   targetRevision: main
 
 services:
-  # a map of services to deploy. Each item is of the form:
+  # Each item is of the form:
   #   service: service name as it appears in K8S (statefulset/deployment name)
   #     targetRevision: optional override for targetRevision above
   #     repoURL: optional override for git repo to source the helm chart from
   #            the path is always services/<service> within that repo
-  #     removed: set to true to remove the service from the cluster
+  #     removed: set to true to remove the service from the cluster 
   epics-pvcs:
     targetRevision: 2024.9.1
   epics-opis:
     targetRevision: 2024.9.1
 
-ec_services:
-  # a map of edge services to deploy. Each item is of the form:
+ec_services:  # Services which have implemented support for an "enabled" parameter. 
+  # Each item is of the form:
   #   service: service name as it appears in K8S (statefulset/deployment name)
   #     targetRevision: optional override for targetRevision above
   #     repoURL: optional override for git repo to source the helm chart from
   #            the path is always services/<service> within that repo
-  #     enabled: set to false to stop a service
   #     removed: set to true to remove the service from the cluster
+  #     enabled: set to false to stop a service
   p47-ea-test-01:
     enabled: true
     targetRevision: 2024.8.5
