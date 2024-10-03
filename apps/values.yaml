@@ -37,7 +37,7 @@ ec_services:  # Services which have implemented support for an "enabled" paramet
   #     removed: set to true to remove the service from the cluster
   #     enabled: set to false to stop a service
   p47-ea-test-01:
-    enabled: true
+    enabled: false
     targetRevision: 2024.8.5
   bl47p-ea-panda-01:
     targetRevision: 2024.9.1
