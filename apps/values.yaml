@@ -28,6 +28,14 @@ services:
   epics-opis:
     targetRevision: 2024.9.1
 
+  # daq services ###############################################################
+  daq-rabbitmq:
+    targetRevision: add-blueapi-nexus-rabbitmq
+  daq-blueapi:
+    targetRevision: add-blueapi-nexus-rabbitmq
+  daq-nexus:
+    targetRevision: add-blueapi-nexus-rabbitmq
+
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
   # Each item is of the form:
