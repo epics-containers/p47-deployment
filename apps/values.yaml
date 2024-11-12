@@ -39,17 +39,17 @@ ec_services:
   #     enabled: set to false to stop a service
   p47-ea-test-01:
     enabled: true
-    targetRevision: 2024.8.5
+    targetRevision: 2024.11.1
   bl47p-ea-panda-01:
-    targetRevision: 2024.9.1
+    targetRevision: 2024.11.1
   bl47p-ea-dcam-01:
-    targetRevision: 2024.9.1
+    targetRevision: 2024.11.1
     enabled: true
   bl47p-ea-dcam-02:
-    targetRevision: feature-branch2  # tracking a development branch for demo purposes
+    targetRevision: 2024.11.1
     enabled: true
   bl47p-mo-ioc-01:
-    targetRevision: 2024.9.1
+    targetRevision: 2024.11.1
   bl47p-ea-test-01:
-    targetRevision: 2024.9.1
+    targetRevision: 2024.11.1
     enabled: true
