@@ -30,11 +30,8 @@ services:
 
   # daq services ###############################################################
   daq-rabbitmq:
-    targetRevision: add-blueapi-nexus-rabbitmq
   daq-blueapi:
-    targetRevision: add-blueapi-nexus-rabbitmq
   daq-nexus:
-    targetRevision: add-blueapi-nexus-rabbitmq
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
