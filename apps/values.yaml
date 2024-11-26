@@ -10,7 +10,7 @@
 
 project: p47-beamline
 destination:
-  name: pollux
+  name: p47
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
