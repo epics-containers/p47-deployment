@@ -3,7 +3,7 @@ _commit: 4.2.0b1
 _src_path: gh:epics-containers/deployment-template-argocd
 argocd_cluster: argus
 argocd_server: argocd.diamond.ac.uk
-cluster_name: p47
+cluster_name: pollux
 cluster_namespace: p47-beamline
 deployment_repo: https://github.com/epics-containers/p47-deployment
 description: p47 IOC Instances and Services ArgoCD deployments
@@ -11,5 +11,5 @@ git_platform: github.com
 github_org: epics-containers
 ioc_group: p47
 logging_url: https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*
-services_release: 2024.12.1
+services_release: 2024.11.2
 services_repo: https://github.com/epics-containers/p47-services
