@@ -44,6 +44,10 @@ ec_services:
   #     removed: set to true to remove the service from the cluster
   #     enabled: set to false to stop a service
   bl47p-ea-panda-01:
+    removed: false
   bl47p-ea-dcam-01:
+    removed: false
   bl47p-ea-dcam-02:
+    removed: false
   bl47p-mo-ioc-01:
+    removed: true
