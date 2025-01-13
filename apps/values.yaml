@@ -50,4 +50,4 @@ ec_services:
   bl47p-ea-dcam-02:
     removed: false
   bl47p-mo-ioc-01:
-    removed: true
+    removed: false
