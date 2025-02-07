@@ -14,7 +14,7 @@ destination:
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
-  targetRevision: 2024.11.2
+  targetRevision: main
 
 services:
   # Each item is of the form:
@@ -27,12 +27,9 @@ services:
   epics-opis:
 
   # daq services ###############################################################
-  daq-rabbitmq:
-    targetRevision: main
-  daq-blueapi:
-    targetRevision: main
-  daq-nexus:
-    targetRevision: main
+  p47-rabbitmq:
+  p47-blueapi:
+  p47-nexus:
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
@@ -44,10 +41,14 @@ ec_services:
   #     removed: set to true to remove the service from the cluster
   #     enabled: set to false to stop a service
   bl47p-ea-panda-01:
-    removed: false
+    targetRevision: 2025.2.1
+    enabled: true
   bl47p-ea-dcam-01:
-    removed: false
+    targetRevision: 2025.2.1
+    enabled: true
   bl47p-ea-dcam-02:
-    removed: false
+    targetRevision: 2025.2.1
+    enabled: true
   bl47p-mo-ioc-01:
-    removed: false
+    targetRevision: 2024.11.2
+    enabled: true
