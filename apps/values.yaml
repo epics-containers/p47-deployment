@@ -44,10 +44,10 @@ ec_services:
     targetRevision: 2025.2.1
     enabled: true
   bl47p-ea-dcam-01:
-    targetRevision: 2025.2.1
+    targetRevision: 2025.3.1
     enabled: true
   bl47p-ea-dcam-02:
-    targetRevision: 2025.2.1
+    targetRevision: 2025.3.1
     enabled: true
   bl47p-mo-ioc-01:
     targetRevision: 2024.11.2
