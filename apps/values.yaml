@@ -50,5 +50,5 @@ ec_services:
     targetRevision: ansible
     enabled: true
   bl47p-mo-ioc-01:
-    targetRevision: 2024.11.2
+    targetRevision: ansible
     enabled: true
