@@ -24,6 +24,7 @@ services:
   #            the path is always services/<service> within that repo
   #     removed: set to true to remove the service from the cluster
   epics-pvcs:
+    targetRevision: ansible
   epics-opis:
 
   # daq services ###############################################################
