@@ -48,8 +48,8 @@ ec_services:
     enabled: true
     targetRevision: 2025.3.2
   bl47p-ea-dcam-02:
-    targetRevision: ansible
     enabled: true
+    targetRevision: 2025.3.2
   bl47p-mo-ioc-01:
     targetRevision: ansible
     enabled: true
