@@ -30,7 +30,7 @@ services:
   # daq services ###############################################################
   p47-rabbitmq:
   p47-blueapi:
-  p47-nexus:
+  # p47-nexus:
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
