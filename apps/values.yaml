@@ -49,4 +49,4 @@ ec_services:
     targetRevision: 2025.4.1
   bl47p-mo-ioc-01:
     enabled: true
-    targetRevision: 2025.11.2
+    targetRevision: 2025.11.1
