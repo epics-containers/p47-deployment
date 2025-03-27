@@ -26,6 +26,7 @@ services:
   epics-pvcs:
   epics-opis:
   p47-gateways:
+    targetRevision: workshop2025
 
   # daq services ###############################################################
   p47-rabbitmq:
