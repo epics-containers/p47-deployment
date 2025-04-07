@@ -4,6 +4,7 @@ metadata:
   name: p47
   finalizers:
     - resources-finalizer.argocd.argoproj.io
+  namespace: p47-beamline
 spec:
   project: p47-beamline
   destination:
