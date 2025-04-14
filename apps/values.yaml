@@ -53,4 +53,4 @@ ec_services:
     targetRevision: 2025.4.1
   bl47p-ea-dcam-01:
     enabled: true
-    targetRevision: 2025.4.3b1
+    targetRevision: 2025.4.1
