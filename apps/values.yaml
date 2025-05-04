@@ -46,7 +46,7 @@ ec_services:
     targetRevision: 2025.4.3b1
   bl47p-mo-ioc-01:
     enabled: true
-    targetRevision: 2025.3.2
+    targetRevision: console-test
   bl47p-ea-dcam-02:
     enabled: true
     targetRevision: console-test
