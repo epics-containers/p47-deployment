@@ -2,9 +2,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: p47
+  namespace: p47-beamline
   finalizers:
     - resources-finalizer.argocd.argoproj.io
-  namespace: p47-beamline
 spec:
   project: p47-beamline
   destination:
