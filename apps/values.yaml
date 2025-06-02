@@ -52,4 +52,4 @@ ec_services:
     targetRevision: console-test
   bl47p-ea-dcam-01:
     enabled: true
-    targetRevision: main
+    targetRevision: 2025.4.1
