@@ -53,3 +53,6 @@ ec_services:
   bl47p-ea-dcam-01:
     enabled: true
     targetRevision: 2025.4.1
+  epics-opis:
+    enabled: true
+    targetRevision: main
