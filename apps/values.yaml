@@ -55,4 +55,4 @@ ec_services:
     targetRevision: 2025.4.1
   epics-opis:
     enabled: true
-    targetRevision: main
+    targetRevision: 2025.4.3b1
