@@ -25,7 +25,7 @@ services:
   #     removed: set to true to remove the service from the cluster
   epics-pvcs:
   epics-opis:
-  p47-proxy
+  p47-proxy:
   p47-gateways:
 
   # daq services ###############################################################
