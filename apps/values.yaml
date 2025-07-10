@@ -50,7 +50,7 @@ ec_services:
     targetRevision: 2025.4.3b1
   bl47p-ea-dcam-02:
     enabled: true
-    targetRevision: rollme-fix
+    targetRevision: 2025.7.1
   bl47p-ea-dcam-01:
     enabled: true
     targetRevision: 2025.4.1
