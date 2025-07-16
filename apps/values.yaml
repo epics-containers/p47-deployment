@@ -14,7 +14,7 @@ destination:
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
-  targetRevision: console-test2
+  targetRevision: main
 
 services:
   # Each item is of the form:
@@ -30,9 +30,7 @@ services:
 
   # daq services ###############################################################
   p47-rabbitmq:
-    targetRevision: main
   p47-blueapi:
-    targetRevision: main
   # p47-nexus:
 
 ec_services:
