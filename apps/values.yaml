@@ -51,3 +51,4 @@ ec_services:
     enabled: true
   bl47p-ea-dcam-01:
     enabled: true
+    targetRevision: console-test2
