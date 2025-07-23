@@ -47,7 +47,7 @@ ec_services:
     targetRevision: main
   bl47p-mo-ioc-01:
     enabled: true
-    targetRevision: main
+    targetRevision: tidy-for-docs
   bl47p-ea-dcam-02:
     enabled: true
   bl47p-ea-dcam-01:
