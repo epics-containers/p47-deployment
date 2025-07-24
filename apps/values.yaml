@@ -52,3 +52,6 @@ ec_services:
   bl47p-ea-dcam-01:
     enabled: true
     targetRevision: main
+  bl47p-gateways:
+    enabled: true
+    targetRevision: tidy-for-docs
