@@ -26,7 +26,6 @@ services:
   epics-pvcs:
   epics-opis:
   p47-proxy:
-  p47-gateways:
 
   # daq services ###############################################################
   p47-rabbitmq:
