@@ -30,7 +30,9 @@ services:
   # p47-rabbitmq:
   # p47-blueapi:
   # p47-nexus:
-
+  p47-tiled:
+    targetRevision: add-tiled
+    
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
   # Each item is of the form:
