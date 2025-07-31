@@ -31,7 +31,6 @@ services:
   # p47-blueapi:
   # p47-nexus:
   p47-tiled:
-    targetRevision: add-tiled
     
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
