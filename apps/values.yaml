@@ -31,7 +31,6 @@ services:
   # p47-blueapi:
   # p47-nexus:
   p47-tiled:
-    
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
   # Each item is of the form:
@@ -58,3 +57,6 @@ ec_services:
   p47-gateways:
     enabled: true
     targetRevision: tidy-for-docs
+  bl47p-ea-fastcs-01:
+    enabled: true
+    targetRevision: add-fastcs
