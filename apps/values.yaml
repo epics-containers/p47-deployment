@@ -48,9 +48,6 @@ ec_services:
   bl47p-ea-dcam-01:
     enabled: true
     targetRevision: main
-  p47-gateways:
-    enabled: true
-    targetRevision: tidy-for-docs
   bl47p-ea-fastcs-01:
     enabled: true
     targetRevision: add-fastcs
