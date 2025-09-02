@@ -57,3 +57,6 @@ ec_services:
   bl47p-gateways:
     enabled: true
     targetRevision: add-fastcs
+  bl47p-ea-uarm-01:
+    enabled: true
+    targetRevision: robot-ioc
