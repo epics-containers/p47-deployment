@@ -56,6 +56,3 @@ ec_services:
   bl47p-mo-ioc-01:
     enabled: true
     targetRevision: add-fastcs
-  bl47p-gateways:
-    enabled: false
-    targetRevision: add-fastcs
