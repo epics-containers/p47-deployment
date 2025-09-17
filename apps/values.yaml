@@ -57,5 +57,5 @@ ec_services:
     enabled: true
     targetRevision: add-fastcs
   bl47p-gateways:
-    enabled: true
+    enabled: false
     targetRevision: add-fastcs
