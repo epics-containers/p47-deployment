@@ -47,3 +47,6 @@ ec_services:
   p47-proxy:
     enabled: true
     targetRevision: main
+  p47-ioc-monitor:
+    enabled: true
+    targetRevision: main
