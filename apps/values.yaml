@@ -44,3 +44,6 @@ ec_services:
     enabled: true
   bl47p-mo-ioc-01:
     enabled: true
+  p47-proxy:
+    enabled: true
+    targetRevision: main
