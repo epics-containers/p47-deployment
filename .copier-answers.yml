@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 4.4.6
+_commit: 5.0.0-beta.1
 _src_path: gh:epics-containers/deployment-template-argocd
 argocd_cluster: argus
 argocd_server: argocd.diamond.ac.uk
@@ -7,9 +7,9 @@ cluster_name: pollux
 cluster_namespace: p47-beamline
 deployment_repo: https://github.com/epics-containers/p47-deployment
 description: p47 IOC Instances and Services ArgoCD deployments
+domain: p47
 git_platform: github.com
 github_org: epics-containers
-ioc_group: p47
 logging_url: https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*
 services_release: 2024.11.2
 services_repo: https://github.com/epics-containers/p47-services

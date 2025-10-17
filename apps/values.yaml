@@ -14,7 +14,7 @@ destination:
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
-  targetRevision: main
+  targetRevision: 5.0.0-test
 
 services:
   # Each item is of the form:
@@ -23,19 +23,11 @@ services:
   #     repoURL: optional override for git repo to source the helm chart from
   #            the path is always services/<service> within that repo
   #     removed: set to true to remove the service from the cluster
-  epics-pvcs:
-  epics-opis:
+  #     enabled: set to false to stop a service
+  p47-epics-pvcs:
+  p47-epics-opis:
   pollux-caprepeater:
 
-ec_services:
-  # Services which have implemented support for an "enabled" parameter.
-  # Each item is of the form:
-  #   service: service name as it appears in K8S (statefulset/deployment name)
-  #     targetRevision: optional override for targetRevision above
-  #     repoURL: optional override for git repo to source the helm chart from
-  #            the path is always services/<service> within that repo
-  #     removed: set to true to remove the service from the cluster
-  #     enabled: set to false to stop a service
   bl47p-ea-panda-01:
     enabled: true
   bl47p-ea-dcam-02:
@@ -46,7 +38,5 @@ ec_services:
     enabled: true
   p47-proxy:
     enabled: true
-    targetRevision: main
   p47-ioc-monitor:
     enabled: true
-    targetRevision: main
