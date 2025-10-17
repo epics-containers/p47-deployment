@@ -45,4 +45,4 @@ services:
     targetRevision: 5.0.0-test
   bl47p-c7-sim-01:
     enabled: true
-    targetRevision: 5.0.0-test
+    targetRevision: dev-c7-volumes
