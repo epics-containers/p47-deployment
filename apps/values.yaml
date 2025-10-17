@@ -40,6 +40,3 @@ services:
     enabled: true
   p47-ioc-monitor:
     enabled: true
-  bl47p-gateways:
-    enabled: true
-    targetRevision: 5.0.0-test
