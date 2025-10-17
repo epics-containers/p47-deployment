@@ -14,7 +14,7 @@ destination:
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
-  targetRevision: 5.0.0-test
+  targetRevision: main
 
 services:
   # Each item is of the form:
@@ -42,7 +42,6 @@ services:
     enabled: true
   bl47p-gateways:
     enabled: true
-    targetRevision: 5.0.0-test
   bl47p-c7-sim-01:
     enabled: true
     targetRevision: dev-c7-volumes
