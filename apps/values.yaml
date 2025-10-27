@@ -35,7 +35,7 @@ services:
   bl47p-ea-dcam-01:
     enabled: true
   bl47p-mo-ioc-01:
-    enabled: true
+    enabled: false
   p47-proxy:
     enabled: true
   p47-ioc-monitor:
