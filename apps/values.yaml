@@ -44,8 +44,7 @@ services:
     enabled: true
   bl47p-c7-sim-01:
     enabled: true
-    targetRevision: dev-c7-volumes
-
+    targetRevision: main
   p47-rabbitmq:
   p47-blueapi:
   p47-nexus:
