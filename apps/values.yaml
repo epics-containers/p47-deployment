@@ -33,7 +33,7 @@ services:
   bl47p-ea-dcam-02:
     enabled: true
   bl47p-ea-dcam-01:
-    enabled: true
+    enabled: false
   bl47p-mo-ioc-01:
     enabled: true
   p47-proxy:
