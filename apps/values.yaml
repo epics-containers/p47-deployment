@@ -48,3 +48,6 @@ services:
   p47-rabbitmq:
   p47-blueapi:
   p47-nexus:
+  bl47p-ea-fastcs-01:
+    enabled: true
+    targetRevision: main
