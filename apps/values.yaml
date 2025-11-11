@@ -49,3 +49,6 @@ services:
   p47-epics-gateways:
     enabled: true
     targetRevision: main
+  bl47p-ea-fastcs-01:
+    enabled: true
+    targetRevision: main
