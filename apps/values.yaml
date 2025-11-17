@@ -41,7 +41,7 @@ services:
   p47-ioc-monitor:
     enabled: true
   bl47p-c7-sim-01:
-    enabled: true
+    enabled: false
     targetRevision: main
   p47-rabbitmq:
   p47-blueapi:
