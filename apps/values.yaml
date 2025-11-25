@@ -34,7 +34,7 @@ services:
     enabled: true
   bl47p-ea-dcam-01:
     enabled: true
-    targetRevision: KEEP-debug-demo
+    targetRevision: gdaPlugins
   bl47p-mo-ioc-01:
     enabled: true
   p47-proxy:
