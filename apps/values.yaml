@@ -14,7 +14,7 @@ destination:
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
-  targetRevision: main
+  targetRevision: add-authn
 
 services:
   # Each item is of the form:
@@ -34,7 +34,7 @@ services:
     enabled: true
   bl47p-ea-dcam-01:
     enabled: true
-    targetRevision: gdaPlugins
+    targetRevision: 
   bl47p-mo-ioc-01:
     enabled: true
   p47-proxy:
@@ -43,13 +43,13 @@ services:
     enabled: true
   bl47p-c7-sim-01:
     enabled: true
-    targetRevision: main
+    targetRevision: 
   p47-rabbitmq:
   p47-blueapi:
   p47-nexus:
   p47-epics-gateways:
     enabled: true
-    targetRevision: main
+    targetRevision: 
   bl47p-ea-fastcs-01:
     enabled: true
-    targetRevision: add-init-container
+    targetRevision: 
