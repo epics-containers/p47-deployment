@@ -14,7 +14,7 @@ spec:
   source:
     path: apps
     repoURL: https://github.com/epics-containers/p47-deployment
-    targetRevision: main
+    targetRevision: add-authn
     helm:
       version: v3
   syncPolicy:
