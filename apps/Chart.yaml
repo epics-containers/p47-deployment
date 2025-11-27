@@ -23,6 +23,6 @@ version: 0.1.0
 appVersion: "1.0"
 
 dependencies:
-  - name: argocd-apps
-    version: 5.0.1-beta.3
-    repository: "oci://ghcr.io/epics-containers/charts"
+    - name: argocd-apps
+      version: 5.0.1
+      repository: "oci://ghcr.io/epics-containers/charts"
