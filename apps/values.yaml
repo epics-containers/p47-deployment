@@ -46,6 +46,7 @@ services:
     targetRevision: main
   p47-rabbitmq:
   p47-blueapi:
+    targetRevision: fix-scratch-permissions
   p47-nexus:
   p47-epics-gateways:
     enabled: true
