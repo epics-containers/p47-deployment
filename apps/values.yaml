@@ -28,28 +28,16 @@ services:
   p47-epics-opis:
   pollux-caprepeater:
 
-  bl47p-ea-panda-01:
-    enabled: true
-  bl47p-ea-dcam-02:
-    enabled: true
-  bl47p-ea-dcam-01:
-    enabled: true
-    targetRevision: gdaPlugins
-  bl47p-mo-ioc-01:
-    enabled: true
-  p47-proxy:
-    enabled: true
-  p47-ioc-monitor:
-    enabled: true
-  bl47p-c7-sim-01:
-    enabled: true
-    targetRevision: main
   p47-rabbitmq:
   p47-blueapi:
   p47-nexus:
+
+  bl47p-ea-panda-01:
+  bl47p-ea-dcam-02:
+  bl47p-ea-dcam-01:
+  bl47p-mo-ioc-01:
+  p47-proxy:
+  p47-ioc-monitor:
+  bl47p-c7-sim-01:
   p47-epics-gateways:
-    enabled: true
-    targetRevision: main
   bl47p-ea-fastcs-01:
-    enabled: true
-    targetRevision: add-init-container
