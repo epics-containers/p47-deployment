@@ -41,3 +41,4 @@ services:
   bl47p-c7-sim-01:
   p47-epics-gateways:
   bl47p-ea-fastcs-01:
+    enabled: false
