@@ -42,3 +42,6 @@ services:
   p47-epics-gateways:
   bl47p-ea-fastcs-01:
     enabled: false
+  bl47p-synoptic:
+    enabled: true
+    targetRevision: fix-commit-hash
