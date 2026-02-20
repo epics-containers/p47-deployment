@@ -41,6 +41,8 @@ services:
   bl47p-ea-panda-01:
   bl47p-ea-dcam-02:
   bl47p-ea-dcam-01:
+    labels:
+      description: GigE Sample camera
   bl47p-mo-ioc-01:
   p47-proxy:
   p47-ioc-monitor:
