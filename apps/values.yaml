@@ -44,7 +44,7 @@ services:
     enabled: true
     targetRevision: test-desc-label
     labels:
-      description: Test Diagnostic Camera 1
+      description: Test_Diagnostic_Camera_1
   bl47p-mo-ioc-01:
     enabled: true
     targetRevision: pingwait
