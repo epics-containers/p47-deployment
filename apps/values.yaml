@@ -42,9 +42,9 @@ services:
   bl47p-ea-dcam-02:
   bl47p-ea-dcam-01:
     enabled: true
-    targetRevision: test-desc-label
+    targetRevision: main
     labels:
-      description: Test_Diagnostic_Camera_1
+      description: Diagnostic_Cam_1
   bl47p-mo-ioc-01:
     enabled: true
     targetRevision: pingwait
