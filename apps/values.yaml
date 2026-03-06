@@ -46,7 +46,7 @@ services:
     labels:
       description: Diagnostic_Cam_1_test8
   bl47p-mo-ioc-01:
-    enabled: true
+    enabled: false
     targetRevision: pingwait
   p47-proxy:
   p47-ioc-monitor:
