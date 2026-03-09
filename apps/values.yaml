@@ -43,8 +43,6 @@ services:
   bl47p-ea-dcam-01:
     enabled: true
     targetRevision: main
-    labels:
-      description: Diagnostic_Cam_1_test9
   p47-proxy:
   p47-ioc-monitor:
   bl47p-c7-sim-01:
