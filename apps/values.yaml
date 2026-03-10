@@ -42,9 +42,9 @@ services:
   bl47p-ea-dcam-02:
   bl47p-ea-dcam-01:
     enabled: true
-    targetRevision: 2025.10.1
+    targetRevision: main
     labels:
-      description: desc_5
+      description: ''
   p47-proxy:
   p47-ioc-monitor:
   bl47p-c7-sim-01:
