@@ -42,9 +42,7 @@ services:
   bl47p-ea-dcam-02:
   bl47p-ea-dcam-01:
     enabled: true
-    targetRevision: main
-    labels:
-      description:
+    targetRevision: pingwait
   p47-proxy:
   p47-ioc-monitor:
   bl47p-c7-sim-01:
