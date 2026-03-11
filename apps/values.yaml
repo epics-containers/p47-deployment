@@ -36,6 +36,9 @@ services:
 
   p47-rabbitmq:
   p47-blueapi:
+    targetRevision: "update-blueapi-tiled"
+  p47-tiled:
+    targetRevision: "update-blueapi-tiled"
   p47-nexus:
 
   bl47p-ea-panda-01:
