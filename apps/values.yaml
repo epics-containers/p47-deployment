@@ -49,6 +49,10 @@ services:
   p47-proxy:
   p47-ioc-monitor:
   bl47p-c7-sim-01:
+    enabled: true
+    targetRevision: main
+    labels:
+      description: a-silly-simulator
   p47-epics-gateways:
   bl47p-ea-fastcs-01:
     enabled: true
