@@ -52,7 +52,7 @@ services:
     enabled: true
     targetRevision: main
     labels:
-      description: a-silly-simulator
+      description: a silly simulator
   p47-epics-gateways:
   bl47p-ea-fastcs-01:
     enabled: true
