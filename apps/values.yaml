@@ -45,7 +45,7 @@ services:
     enabled: true
     targetRevision: main
     labels:
-      description:
+      description: whats-wrong
   p47-proxy:
   p47-ioc-monitor:
   bl47p-c7-sim-01:
