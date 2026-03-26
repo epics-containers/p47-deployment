@@ -46,7 +46,7 @@ services:
     labels:
       description: hello-world
   bl47p-ea-dcam-01:
-    enabled: true
+    enabled: false
     targetRevision: main
     labels:
       description: whats-wrong
