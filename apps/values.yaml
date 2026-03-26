@@ -58,8 +58,6 @@ services:
     labels:
       description: hello-world
   p47-epics-gateways:
-  bl47p-ea-fastcs-01:
-    enabled: true
   bl47p-synoptic:
     enabled: true
     targetRevision: fix-commit-hash
