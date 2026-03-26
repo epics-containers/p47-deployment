@@ -40,7 +40,7 @@ services:
 
   bl47p-ea-panda-01:
   bl47p-ea-dcam-02:
-    enabled: true
+    enabled: false
     targetRevision: main
     labels:
       description: hello-world
