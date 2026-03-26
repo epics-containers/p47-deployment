@@ -36,7 +36,6 @@ services:
 
   p47-rabbitmq:
   p47-blueapi:
-  p47-tiled:
   p47-nexus:
 
   bl47p-ea-panda-01:
