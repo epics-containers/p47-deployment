@@ -32,7 +32,6 @@ services:
 
   p47-epics-pvcs:
   p47-epics-opis:
-  pollux-caprepeater:
 
   p47-rabbitmq:
   p47-blueapi:
