@@ -64,4 +64,4 @@ services:
     enabled: true
     targetRevision: pingwait
     labels:
-      description:
+      description: pmac-clipper-p47
