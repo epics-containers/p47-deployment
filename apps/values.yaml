@@ -64,3 +64,8 @@ services:
     targetRevision: pingwait
     labels:
       description: pmac-clipper-p47
+  p47-epics-opis:
+    enabled: true
+    targetRevision: main
+    labels:
+      description:
