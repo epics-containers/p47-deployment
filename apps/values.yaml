@@ -30,6 +30,7 @@ services:
   #     values: TBA - custom values to pass to the helm chart when deploying the service
   #     ----
 
+  p47-epics-opis:
   p47-epics-pvcs:
 
   p47-rabbitmq:
