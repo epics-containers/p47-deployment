@@ -37,7 +37,7 @@ services:
   p47-nexus:
 
   bl47p-ea-panda-01:
-    enabled: true
+    enabled: false
   bl47p-ea-dcam-02:
     enabled: false
     targetRevision: main
