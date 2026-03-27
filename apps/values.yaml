@@ -62,3 +62,5 @@ services:
   bl47p-mo-ioc-01:
     enabled: true
     targetRevision: pingwait
+    labels:
+      description:
