@@ -31,7 +31,6 @@ services:
   #     ----
 
   p47-epics-pvcs:
-  p47-epics-opis:
 
   p47-rabbitmq:
   p47-blueapi:
