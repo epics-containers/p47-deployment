@@ -69,3 +69,6 @@ services:
     targetRevision: main
     labels:
       description:
+  sr03c-va-ioc-01:
+    enabled: true
+    targetRevision: test-vac
