@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://github.com/epics-containers/ec-helm-charts/releases/download/5.5.0/argocd-apps.schema.json
+# yaml-language-server: $schema=https://github.com/epics-containers/ec-helm-charts/releases/download/5.4.6/argocd-apps.schema.json
 
 # This file configures an ArgoCD app of apps that represent a
 # group of beamline or accelerator IOCs and services. The configuration of the
@@ -68,7 +68,7 @@ services:
     enabled: true
     targetRevision: main
     labels:
-      description:
+      description: its-opis-ok
   sr03c-va-ioc-01:
     enabled: false
     targetRevision: test-vac
