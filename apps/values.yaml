@@ -35,9 +35,6 @@ services:
   p47-rabbitmq:
   p47-blueapi:
   p47-nexus:
-
-  bl47p-ea-panda-01:
-    enabled: false
   p47-proxy:
   p47-epics-gateways:
   bl47p-synoptic:
