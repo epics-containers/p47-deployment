@@ -53,6 +53,3 @@ services:
     targetRevision: main
     labels:
       description: its-opis-ok
-  sr03c-va-ioc-01:
-    enabled: false
-    targetRevision: test-vac
