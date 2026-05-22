@@ -43,11 +43,6 @@ services:
     targetRevision: main
     labels:
       description: hello-world
-  bl47p-ea-dcam-01:
-    enabled: true
-    targetRevision: main
-    labels:
-      description: whats-wrong
   p47-proxy:
   bl47p-c7-sim-01:
     enabled: true
