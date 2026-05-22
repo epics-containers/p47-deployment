@@ -38,11 +38,6 @@ services:
 
   bl47p-ea-panda-01:
     enabled: false
-  bl47p-ea-dcam-02:
-    enabled: false
-    targetRevision: main
-    labels:
-      description: hello-world
   p47-proxy:
   bl47p-c7-sim-01:
     enabled: true
