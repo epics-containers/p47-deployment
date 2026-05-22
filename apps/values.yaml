@@ -39,11 +39,6 @@ services:
   bl47p-ea-panda-01:
     enabled: false
   p47-proxy:
-  bl47p-c7-sim-01:
-    enabled: true
-    targetRevision: main
-    labels:
-      description: hello-world
   p47-epics-gateways:
   bl47p-synoptic:
     enabled: true
