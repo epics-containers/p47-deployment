@@ -40,11 +40,6 @@ services:
   bl47p-synoptic:
     enabled: true
     targetRevision: fix-commit-hash
-  bl47p-mo-ioc-01:
-    enabled: true
-    targetRevision: pingwait
-    labels:
-      description: pmac-clipper-p47
   p47-epics-opis:
     enabled: true
     targetRevision: main
