@@ -50,3 +50,8 @@ services:
     targetRevision: pingwait
     labels:
       description:
+  bl47p-ea-simdet:
+    enabled: true
+    targetRevision: test-ioc-group
+    labels:
+      description:
