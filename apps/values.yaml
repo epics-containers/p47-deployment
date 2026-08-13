@@ -55,3 +55,8 @@ services:
     targetRevision: test-ioc-group
     labels:
       description:
+  bl47p-ea-fastcs-01:
+    enabled: true
+    targetRevision: test-ioc-group
+    labels:
+      description:
