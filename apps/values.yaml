@@ -57,6 +57,6 @@ services:
       description:
   bl47p-ea-fastcs-01:
     enabled: true
-    targetRevision: test-ioc-group
+    targetRevision: plandev
     labels:
       description:
