@@ -39,7 +39,7 @@ services:
   p47-epics-gateways:
   bl47p-synoptic:
     enabled: true
-    targetRevision: fix-commit-hash
+    targetRevision: main
   p47-epics-opis:
     enabled: true
     targetRevision: main
@@ -47,16 +47,16 @@ services:
       description: its-opis-ok
   bl47p-mo-ioc-01:
     enabled: true
-    targetRevision: pingwait
+    targetRevision: main
     labels:
       description:
   bl47p-ea-simdet:
     enabled: true
-    targetRevision: test-ioc-group
+    targetRevision: main
     labels:
       description:
   bl47p-ea-fastcs-01:
     enabled: true
-    targetRevision: test-ioc-group
+    targetRevision: main
     labels:
       description:
