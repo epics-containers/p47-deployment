@@ -42,7 +42,7 @@ services:
     targetRevision: main
   p47-epics-opis:
     enabled: true
-    targetRevision: podbench-prune-probe
+    targetRevision: main
     labels:
       description: its-opis-ok
   bl47p-mo-ioc-01:
