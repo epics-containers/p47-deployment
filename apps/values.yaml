@@ -17,18 +17,18 @@ source:
   targetRevision: main
 
 services:
-  p47-epics-pvcs:
-  p47-rabbitmq:
-  p47-blueapi:
-  p47-nexus:
-  p47-proxy:
-  p47-epics-gateways:
-  bl47p-synoptic:
+  p47-epics-pvcs: {}
+  p47-rabbitmq: {}
+  p47-blueapi: {}
+  p47-nexus: {}
+  p47-proxy: {}
+  p47-epics-gateways: {}
+  bl47p-synoptic: {}
   p47-epics-opis:
     labels:
       description: its-opis-ok
-  bl47p-mo-ioc-01:
-  bl47p-ea-simdet:
+  bl47p-mo-ioc-01: {}
+  bl47p-ea-simdet: {}
   bl47p-ea-fastcs-01:
     enabled: true
     targetRevision: podbench-hotfix-claim
