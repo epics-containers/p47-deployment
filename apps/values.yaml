@@ -18,7 +18,6 @@ source:
 
 services:
   p47-epics-pvcs:
-
   p47-rabbitmq:
   p47-blueapi:
   p47-nexus:
@@ -34,4 +33,4 @@ services:
     enabled: true
     targetRevision: podbench-hotfix-claim
     labels:
-      description:
+      description: example-fastcs
