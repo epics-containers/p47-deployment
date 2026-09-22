@@ -32,7 +32,7 @@ services:
   bl47p-ea-dcam-01:
     description: sample gige camera 1
   bl47p-ea-dcam-02:
-    description: overview gige camera
+    description: overview gige camera 2
   bl47p-ea-fastcs-01:
     enabled: true
     labels:
