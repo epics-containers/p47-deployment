@@ -27,7 +27,8 @@ services:
   p47-epics-opis:
     labels:
       description: its-opis-ok
-  bl47p-mo-ioc-01: {}
+  bl47p-mo-ioc-01:
+    description: simMotor description by greg
   bl47p-ea-simdet: {}
   bl47p-ea-dcam-01:
     description: sample gige camera 1
