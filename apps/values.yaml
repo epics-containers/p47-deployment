@@ -29,7 +29,8 @@ services:
       description: its-opis-ok
   bl47p-mo-ioc-01: {}
   bl47p-ea-simdet: {}
-  bl47p-ea-dcam-01: {}
+  bl47p-ea-dcam-01:
+    description: sample camera
   bl47p-ea-dcam-02: {}
   bl47p-ea-fastcs-01:
     enabled: true
