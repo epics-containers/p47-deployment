@@ -30,7 +30,7 @@ services:
   bl47p-mo-ioc-01: {}
   bl47p-ea-simdet: {}
   bl47p-ea-dcam-01:
-    description: sample camera
+    description: sample gige camera
   bl47p-ea-dcam-02:
     description: overview gige camera
   bl47p-ea-fastcs-01:
