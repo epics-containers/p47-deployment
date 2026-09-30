@@ -24,8 +24,8 @@ source:
 # `group: motion-fix` on a set of IOCs to put them on a branch together.
 # A `group` with no matching entry here fails the render.
 versions:
-  daq: 2024.11.2
-  techui: 2024.11.2
+  daq: main
+  techui: main
 
   # Each item is of the form:
   #   service: service name as it appears in K8S (statefulset/deployment name)
