@@ -14,7 +14,7 @@ destination:
   namespace: p47-beamline
 source:
   repoURL: https://github.com/epics-containers/p47-services
-  targetRevision: main
+  targetRevision: template-5.10.0-beta.5
 
 # One targetRevision per line. A service with no `group` (Controls
 # IOCs) follows source.targetRevision above. A service with `group: daq` or
@@ -24,8 +24,8 @@ source:
 # `group: motion-fix` on a set of IOCs to put them on a branch together.
 # A `group` with no matching entry here fails the render.
 versions:
-  daq: main
-  techui: main
+  daq: template-5.10.0-beta.5
+  techui: template-5.10.0-beta.5
 
   # Each item is of the form:
   #   service: service name as it appears in K8S (statefulset/deployment name)
