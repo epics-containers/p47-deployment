@@ -49,12 +49,16 @@ versions:
   #     group: daq
 services:
   p47-epics-pvcs: {}
-  p47-rabbitmq: {}
-  p47-blueapi: {}
-  p47-nexus: {}
+  p47-rabbitmq:
+    group: daq
+  p47-blueapi:
+    group: daq
+  p47-nexus:
+    group: daq
   p47-proxy: {}
   p47-epics-gateways: {}
-  bl47p-synoptic: {}
+  bl47p-synoptic:
+    group: techui
   p47-epics-opis:
     labels:
       description: its-opis-ok
