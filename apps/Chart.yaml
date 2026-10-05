@@ -23,7 +23,7 @@ version: 0.1.0
 appVersion: "1.0"
 
 dependencies:
-    - name: argocd-apps
-      # set by deployment-template-argocd: change it with copier update, not by hand.
-      version: 5.14.0-beta.1
-      repository: "oci://ghcr.io/epics-containers/charts"
+  - name: argocd-apps
+    # set by deployment-template-argocd: change it with copier update, not by hand.
+    version: 5.14.0
+    repository: "oci://ghcr.io/epics-containers/charts"
