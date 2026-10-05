@@ -60,8 +60,7 @@ services:
   bl47p-synoptic:
     group: techui
   p47-epics-opis:
-    labels:
-      description: its-opis-ok
+    description: its-opis-ok
   bl47p-mo-ioc-01:
     description: two-stage motor controller
   bl47p-ea-dcam-01:
@@ -70,7 +69,5 @@ services:
     description: overview gige camera 2
   bl47p-ea-fastcs-01:
     enabled: true
-    labels:
-      description: example-fastcs
     description: demo fastcs temp controller
   bl47p-ea-simdet: {}
