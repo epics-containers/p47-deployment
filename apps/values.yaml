@@ -53,6 +53,8 @@ services:
     group: daq
   p47-blueapi:
     group: daq
+  p47-nightly-smoke:
+    group: daq
   p47-nexus:
     group: daq
   p47-proxy: {}
