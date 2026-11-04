@@ -77,3 +77,5 @@ services:
     targetRevision: new-panda
   bl47p-ea-cryo-01:
     targetRevision: pvi-try
+  bl47p-nt-ioc-01:
+    targetRevision: pvi-try
