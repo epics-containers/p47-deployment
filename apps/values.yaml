@@ -75,3 +75,5 @@ services:
   bl47p-ea-simdet: {}
   bl47p-ea-panda-01:
     targetRevision: new-panda
+  bl47p-ea-cryo-01:
+    targetRevision: pvi-try
